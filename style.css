@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Cambo&family=Oswald&family=Pixelify+Sans:wght@500&family=Playfair+Display:ital@1&display=swap');
+
+body{
+    font-family: 'Cambo', serif;
+    padding: 0px 15px;
+    font-size: 17px;
+}
+/*----header------*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(1, 2, 61);
+    position: sticky;
+    top: 0;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav .logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+nav a{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Pixelify Sans', cursive;
+}
+nav a:hover{
+    transition: all 0.5s ease;
+    color: orangered;
+    letter-spacing: 5px;
+}
+.name{
+    color: #ffffff;
+    
+}
+.present{
+    color: #000000;
+}
+.presentation header h1{
+    margin-top: 6%;
+     text-transform: uppercase;
+     font-family: 'Oswald', sans-serif;
+     font-size: 42px;
+}
+.presentation header p{
+    line-height: 22px;
+    opacity: 70%;
+    margin-bottom: 40px;
+}
+.link-resume a{
+    border: 18px solid darkcyan;
+    background-color: darkcyan;
+    color: blanchedalmond;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.imgPage{
+    margin-top: 50px;
+}
+.imgPage img{
+    margin-bottom: 30px;
+    width: 800px;
+    height: 500px;
+    color: y;
+}
+/*----resume------*/
+.resume-section{
+    margin-top: 20px;
+}
+.resume-section h2{
+    font-family: 'AR One Sans', sans-serif;
+    text-transform: uppercase;
+}
+.resumes-section .resumes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.resumes-section .resumes .resume{
+    border: 3px solid gray;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+/*----footer------*/
+footer{
+    margin-top: 10%;
+    background-color: rgb(1, 2, 61);
+    color: #ffffff;
+    padding: 5px;
+    line-height: 15px;
+    text-align: center;
+}
+footer h2{
+    text-transform: uppercase;
+}
+footer img{
+    padding: 8px;
+    width: 25px;
+    height: 25px;
+}
+/*----contacts.html------*/
+.imgWeb img{
+    width: 700px;
+    height: 400px;
+}
+.contacts{
+    background-color: darkcyan;
+}
+.contacts nav{
+    margin: 5px;
+    border: 5px solid white;
+    font-family: 'Pixelify Sans', cursive;
+}
+.contacts nav image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.contacts h1{
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 30px;
+}
+.contacts h2{
+    text-decoration: underline;
+    color: #0efabF;
+}
+.contacts input{
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+    
+}
+.contacts label{
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+    
+}
+.send{
+    margin-top: 20px;
+}
+.offre{
+    color: #fff;
+    margin-left: 8px;
+}
+textarea{
+    margin-left: 8px;
+}
+.contacts input:focus{
+    background-color: gray;
+}
+.contacts button{
+    border: 18px solid rgb(1, 2, 61);
+    background-color:  rgb(1, 2, 61);
+    color: blanchedalmond;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+    
+    /*-----Skills.html-----*/
+    .skill h1{
+        color: rgb(red, green, blue);
+    }
+    .skill{
+        background-image: url("informatique.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+        color: rgb(64, 109, 231);
+    }
+    .skill ul{
+        list-style: none;
+        font-size: 28px;
+        line-height: 50px;
+        
+        font-weight: bold;
+    }
+    .skill ul:hover{
+        letter-spacing: 10px;
+        color: purple;
+    }
+    /*-----training.html-----*/
+    .train img{
+        width: 850px;
+        height: 300px;
+    }
+    .training h1{
+        margin-top: 60px;
+        border: 20px solid #125988;
+        background-color: #125988;
+    }
+    .training img{
+        width: 400px;
+        height: 300px;
+    }
+    /*-----@media queries-----*/
+    @media screen and (max-width: 840px) {
+    nav a{
+      display: inline;
+      display: none; 
+    }
+    .imgPage img{
+      width: 500px;  
+    } 
+     .skill{
+        width: 500px;
+     }
+     .contacts{
+        width: 500px;
+     }
+      nav{
+        width: 50px;
+      }
+        footer{
+            width: 500px;
+        }
+        footer img{
+            display: inline;
+        }
+      
+    }
+    
+
+
+
